@@ -13,7 +13,7 @@
 body {
   font-family: "Space Mono", Arial, serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.7;
   color: #4d4d4d;
   background: #fff;
@@ -194,7 +194,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h3,
   .fh5co-cover .display-tc h3 {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 #fh5co-header .display-tc .profile-thumb,
@@ -232,7 +232,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-features .feature-left {
   margin-bottom: 40px;
-  float: left;
+  float: inline-start;
 }
 @media screen and (max-width: 992px) {
   #fh5co-features .feature-left {
@@ -268,7 +268,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
 }
 #fh5co-features .feature-left p {
-  font-size: 16px;
+  font-size: 18px;
   color: rgba(255, 255, 255, 0.7);
 }
 #fh5co-features .feature-left p:last-child {
@@ -335,14 +335,14 @@ h1, h2, h3, h4, h5, h6, figure {
   padding-top: 0;
 }
 .info li .first-block {
-  width: 40%;
+  width: 10%;
   display: inline-block;
   float: left;
   color: #000;
   font-weight: bold;
 }
 .info li .second-block {
-  width: 60%;
+  width: 90%;
   display: inline-block;
   color: rgba(0, 0, 0, 0.5);
 }
@@ -365,7 +365,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #81dafc;
+  color: #6589ec;
   padding-left: 10px;
   padding-right: 10px;
 }
